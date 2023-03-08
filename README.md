@@ -2,7 +2,7 @@
 
 Challenge website: [Visual Text Question Answering Challenge](https://visual-text-qa.github.io/)
 
-<!-- Overview paper: [VTQA: Visual Text Question Answer via Entity Alignment and Cross-Media Reasoning](https://arxiv.org/abs/***) -->
+Overview paper: [VTQA: Visual Text Question Answer via Entity Alignment and Cross-Media Reasoning](https://arxiv.org/abs/2303.02635)
 
 
 ## Challenge 
@@ -98,10 +98,14 @@ docker pull <username>/vtqa:submission
 docker run --shm-size 8g -v <path to folder containing the test.json>:/workspace/data -v <path to save pred json>:/workspace/test_pred.json --gpus all --rm vtqa:submission /bin/bash -c "python /workspace/VTQA-Demo/test.py"
 ```
 
-<!-- ## Citation
+## Citation
 
 If this repository is helpful for your research, we'd really appreciate it if you could cite the following paper:
 
 ```
-
-``` -->
+@inproceedings{Chen2023VTQAVT, 
+    title={VTQA: Visual Text Question Answering via Entity Alignment and Cross-Media Reasoning}, 
+    author={Kang Chen and Xiangqian Wu}, 
+    year={2023} 
+}
+```
