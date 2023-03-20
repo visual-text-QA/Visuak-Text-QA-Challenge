@@ -19,13 +19,7 @@ As illustrated in Figure 1, given an image-text pair and a question, a system is
 
 VTQA dataset consists of 10,238 image-text pairs and 27,317 questions. The images are real images from [MSCOCO](https://cocodataset.org/) dataset, containing a variety of entities. The annotators are required to first annotate relevant text according to the image, and then ask questions based on the image-text pair, and finally answer the question open-ended. We randomly split the dataset into training, validation, and test splits and each image will only appear in one split. Each split has 12848, 3106, 11363 samples, respectively.
 
-You can use the following link to download data.
-
-| Data                | Google Drive                                                                                   | Baidu Yun                                                            |
-| ------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Images              | [download](https://drive.google.com/file/d/1-Hop5LM7jiXsivpub8xB79aUdJaLf6Rw/view?usp=sharing) | [download](https://pan.baidu.com/s/1mIHGO18Jhjyb2XHHsIGBeA?pwd=4dce) |
-| Chinese Annotations | [download](https://drive.google.com/file/d/1-Cd2qFA_WJMHFw490TvCa9G6F_aXl8m9/view?usp=sharing) | [download](https://pan.baidu.com/s/1mIHGO18Jhjyb2XHHsIGBeA?pwd=4dce) |
-| English Annotations | Coming soon                                                                                    | Coming soon                                                          |
+You can register on our challenge [website](http://81.70.95.220:20035/) and download the data.
 
 The `images` folder in the data contains the original image file from [MSCOCO](https://cocodataset.org/)(`.jpg`), the [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention) region features(`.npz`) and the [grid-features](https://github.com/facebookresearch/grid-feats-vqa)(`.npy`).
 
