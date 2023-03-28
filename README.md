@@ -69,7 +69,7 @@ You can now train your own model in this container. (Or just use the [demo](http
 
 ### (e) Submitting as a JSON file for test_dev set
 
-Once you have trained your model and predict the answers for the test_dev set, you can write your predict answers as a json file like the [example](./test_dev_result_demo.json) and submit it [here](http://81.70.95.220:20035/index.html).
+Once you have trained your model and predict the answers for the test_dev set, you can write your predict answers as a json file like the [example](./test_dev_example.json) and submit it [here](http://81.70.95.220:20035/index.html).
 
 ### (f) Submitting as a Docker image for test set
 
