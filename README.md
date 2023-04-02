@@ -19,7 +19,7 @@ As illustrated in Figure 1, given an image-text pair and a question, a system is
 
 VTQA dataset consists of 10,238 image-text pairs and 27,317 questions. The images are real images from [MSCOCO](https://cocodataset.org/) dataset, containing a variety of entities. The annotators are required to first annotate relevant text according to the image, and then ask questions based on the image-text pair, and finally answer the question open-ended. We randomly split the dataset into training, validation, and test splits and each image will only appear in one split. Each split has 12848, 3106, 11363 samples, respectively.
 
-You can register on our challenge [website](http://81.70.95.220:20035/) and download the data.
+You can register on our challenge [website](http://vtqa-challenge.fixtankwun.top:20010/) and download the data.
 
 The `images` folder in the data contains the original image file from [MSCOCO](https://cocodataset.org/)(`.jpg`), the [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention) region features(`.npz`) and the [grid-features](https://github.com/facebookresearch/grid-feats-vqa)(`.npy`).
 
@@ -69,11 +69,11 @@ You can now train your own model in this container. (Or just use the [demo](http
 
 ### (e) Submitting as a JSON file for test_dev set
 
-Once you have trained your model and predict the answers for the test_dev set, you can write your predict answers as a json file like the [example](./test_dev_example.json) and submit it [here](http://81.70.95.220:20035/index.html).
+Once you have trained your model and predict the answers for the test_dev set, you can write your predict answers as a json file like the [example](./test_dev_example.json) and submit it [here](http://vtqa-challenge.fixtankwun.top:20010/).
 
 ### (f) Submitting as a Docker image for test set
 
-Upload your Docker image to [DockerHub](https://hub.docker.com/) and submit your docker image name [here](http://81.70.95.220:20035/index.html). 
+Upload your Docker image to [DockerHub](https://hub.docker.com/) and submit your docker image name [here](http://vtqa-challenge.fixtankwun.top:20010/). 
  
 Example for a Dockerhub user called `<username>`:
 
