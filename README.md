@@ -23,6 +23,7 @@ You can register on our challenge [website](http://vtqa-challenge.fixtankwun.top
 
 The `images` folder in the data contains the original image file from [MSCOCO](https://cocodataset.org/)(`.jpg`), the [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention) region features(`.npz`) and the [grid-features](https://github.com/facebookresearch/grid-feats-vqa)(`.npy`).
 
+The `annotations` folder in the data contains Chinese version (`**_zh.json`) and English version (`**_en.json`) of annotated text. And additional word segmentation and vectorization files (by [spaCy](https://spacy.io/)) are provided.
 **Notice: The test_dev set is public but without answer. The test set is private for the final challenge rank.**
 
 
