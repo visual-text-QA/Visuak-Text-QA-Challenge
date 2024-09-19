@@ -2,7 +2,7 @@
 
 Challenge website: [Visual Text Question Answering Challenge](https://visual-text-qa.github.io/)
 
-Overview paper: [VTQA: Visual Text Question Answer via Entity Alignment and Cross-Media Reasoning](https://arxiv.org/abs/2303.02635)
+Overview paper: [VTQA: Visual Text Question Answer via Entity Alignment and Cross-Media Reasoning](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_VTQA_Visual_Text_Question_Answering_via_Entity_Alignment_and_Cross-Media_CVPR_2024_paper.html)
 
 
 ## Challenge 
@@ -98,9 +98,14 @@ docker run --shm-size 8g -v <path to folder containing the test.json>:/workspace
 If this repository is helpful for your research, we'd really appreciate it if you could cite the following paper:
 
 ```
-@inproceedings{Chen2023VTQAVT, 
-    title={VTQA: Visual Text Question Answering via Entity Alignment and Cross-Media Reasoning}, 
-    author={Kang Chen and Xiangqian Wu}, 
-    year={2023} 
-}
+@INPROCEEDINGS{VTQA,
+  author={Chen, Kang and Wu, Xiangqian},
+  booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+  title={VTQA: Visual Text Question Answering via Entity Alignment and Cross-Media Reasoning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={27208-27217},
+  keywords={Measurement;Visualization;Grounding;Computational modeling;Natural languages;Fitting;Object detection;artificial intelligence;multimodal;visual question answering;dataset},
+  doi={10.1109/CVPR52733.2024.02570}}
 ```
