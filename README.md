@@ -19,7 +19,8 @@ As illustrated in Figure 1, given an image-text pair and a question, a system is
 
 VTQA dataset consists of 10,238 image-text pairs and 27,317 questions. The images are real images from [MSCOCO](https://cocodataset.org/) dataset, containing a variety of entities. The annotators are required to first annotate relevant text according to the image, and then ask questions based on the image-text pair, and finally answer the question open-ended. We randomly split the dataset into training, validation, and test splits and each image will only appear in one split. Each split has 12848, 3106, 11363 samples, respectively.
 
-You can register on our challenge [website](http://vtqa-challenge.fixtankwun.top:20010/) and download the data.
+<s>You can register on our challenge [website](http://vtqa-challenge.fixtankwun.top:20010/) and download the data.</s>
+Now data can be obtained using [transformers](https://huggingface.co/datasets/CalfKing/vtqa2023). There are some changes in the data format, and the demo will be modified to adapt to it later.
 
 The `images` folder in the data contains the original image file from [MSCOCO](https://cocodataset.org/)(`.jpg`), the [bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention) region features(`.npz`) and the [grid-features](https://github.com/facebookresearch/grid-feats-vqa)(`.npy`).
 
